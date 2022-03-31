@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<title>ONE</title>
+</head>
+<body>
+    <header>
+<div class="topnav" id="myTopnav">
+    <ul class="topli">
+        <li class="active">Individi</li>
+        <li>Biznes</li>
+        <li>Kompania</li>
+        <li>En</li>
+        <li id="hyr">Hyr ne Llogaria ime</li>
+        <li>Regjistrohu</li>
+    </ul>
+    <div class="logoone">
+    <a id="logo" href=""><img src="images/my-one.png" alt=""></a>
+    <input class="search " type="text" placeholder="Kerko">
+    <p class="count">
+        <img id="count" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxMi44IDE3IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMi44IDE3OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDojMDBBQUU1O30NCjwvc3R5bGU+DQo8Zz4NCgk8Zz4NCgkJPGc+DQoJCQk8cG9seWdvbiBjbGFzcz0ic3QwIiBwb2ludHM9IjguNSwwLjQgOC41LDQuMiAxMi4zLDQuMiAJCQkiLz4NCgkJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik03LjgsNS43QzcuNCw1LjcsNy4xLDUuNCw3LjEsNVYwSDAuN0MwLjMsMCwwLDAuMywwLDAuN3YxNS42QzAsMTYuNywwLjMsMTcsMC43LDE3SDEyDQoJCQkJYzAuNCwwLDAuNy0wLjMsMC43LTAuN1Y1LjdMNy44LDUuN0w3LjgsNS43eiBNMi44LDcuMWgwLjdjMC40LDAsMC43LDAuMywwLjcsMC43YzAsMC40LTAuMywwLjctMC43LDAuN0gyLjgNCgkJCQljLTAuNCwwLTAuNy0wLjMtMC43LTAuN0MyLjEsNy40LDIuNCw3LjEsMi44LDcuMXogTTQuMywxNC4ySDIuOGMtMC40LDAtMC43LTAuMy0wLjctMC43czAuMy0wLjcsMC43LTAuN2gxLjQNCgkJCQljMC40LDAsMC43LDAuMywwLjcsMC43QzUsMTMuOSw0LjYsMTQuMiw0LjMsMTQuMnogTTUuNywxMS4zSDIuOGMtMC40LDAtMC43LTAuMy0wLjctMC43czAuMy0wLjcsMC43LTAuN2gyLjgNCgkJCQljMC40LDAsMC43LDAuMywwLjcsMC43UzYuMSwxMS4zLDUuNywxMS4zeiBNOS45LDE0LjJINy4xYy0wLjQsMC0wLjctMC4zLTAuNy0wLjdzMC4zLTAuNywwLjctMC43aDIuOGMwLjQsMCwwLjcsMC4zLDAuNywwLjcNCgkJCQlDMTAuNiwxMy45LDEwLjMsMTQuMiw5LjksMTQuMnogTTkuOSwxMS4zSDguNWMtMC40LDAtMC43LTAuMy0wLjctMC43czAuMy0wLjcsMC43LTAuN2gxLjRjMC40LDAsMC43LDAuMywwLjcsMC43DQoJCQkJUzEwLjMsMTEuMyw5LjksMTEuM3ogTTkuOSw4LjVINi40QzYsOC41LDUuNyw4LjIsNS43LDcuOGMwLTAuNCwwLjMtMC43LDAuNy0wLjdoMy41YzAuNCwwLDAuNywwLjMsMC43LDAuN1MxMC4zLDguNSw5LjksOC41eiIvPg0KCQk8L2c+DQoJPC9nPg0KPC9nPg0KPC9zdmc+DQo=" alt="">
+        <a href="#"  title="" data-toggle="compare">0</a>
+    </p>
+    <p class="shporta">
+        <a  href="" title="" data-toggle="basket">0</a>
+        <img id="shporta" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAxNyAxNyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMTcgMTc7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiMwMEFBRTU7fQ0KPC9zdHlsZT4NCjxnPg0KCTxnPg0KCQk8Zz4NCgkJCTxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xNS44LDEuNUgzLjFjMCwwLTAuMSwwLTAuMSwwbC0wLjMtMUMyLjYsMC4yLDIuMywwLDEuOSwwSDAuNEMwLjIsMCwwLDAuMiwwLDAuNHYwLjhjMCwwLjIsMC4yLDAuNCwwLjQsMC40DQoJCQkJaDFsMi40LDcuOWwtMC45LDEuMWMtMC40LDAuNC0wLjUsMS0wLjQsMS41YzAuMiwwLjcsMC44LDEuMSwxLjUsMS4xaDExLjFjMC4yLDAsMC40LTAuMiwwLjQtMC40VjEyYzAtMC4yLTAuMi0wLjQtMC40LTAuNEg0DQoJCQkJbDEuMi0xLjRjMCwwLDAuMS0wLjEsMC4xLTAuMWg3LjVjMC42LDAsMS4xLTAuMywxLjQtMC45bDIuNy01LjdDMTcsMy4zLDE3LDMuMSwxNywyLjlWMi44QzE3LDIuMSwxNi40LDEuNSwxNS44LDEuNXoiLz4NCgkJCTxjaXJjbGUgY2xhc3M9InN0MCIgY3g9IjQuNiIgY3k9IjE1LjUiIHI9IjEuNSIvPg0KCQkJPGNpcmNsZSBjbGFzcz0ic3QwIiBjeD0iMTMuOSIgY3k9IjE1LjUiIHI9IjEuNSIvPg0KCQk8L2c+DQoJPC9nPg0KPC9nPg0KPC9zdmc+DQo=" alt="">
+        </p>
+    </div>
+    <div class="menu">
+    <ul>
+  <li><a href="">Mobille</a></li>
+  <li><a href="">Homnet</a></li>
+  <li><a href="">one fix</a></li>
+  <li><a href="">eshop</a></li>
+  <li><a href="">aplikacione & sherbime</a></li>
+  <li><a href="">Kujdesi ndaj klientit</a></li>
+  <li ><a id="llogariaime" href="">llogariaime</a></li>
+    </ul>
+    </div>
+    <a href="" class="kerko">
+        <i class="fa fa-search" ></i>
+      </a>
+    <a  href="" class="logom" >
+        <img src="images/my-one.png" alt="">
+      </a>
+      <a href="" class="cart">
+        <i class="fa fa-shopping-cart" ></i>
+      </a>
+      
+  <a id="icon" href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+</header>
+<section>
+<div class="image">
+    <img src="images/Mask Group 1.png" alt="">
+    <p>One Telecommunications started in 2021 <strong> One Scholars Program,</strong> aiming to support talented students 
+        pursue a better future. Well-educated workforce of tomorrow depends on qualitative education 
+        today. We acknowledge that to remain competitive in an ever-changing global marketplace requires 
+        the steady influx of new talent. By sponsoring scholarship programs, we can encourage and develop 
+        the next generation of employees and executives who will lead the market to greater successes. 
+        <br><br>
+        One Scholars gives the opportunity to 15 students per year to attend one of the Bachelor programs
+         of AUBG and RIT Kosovo, with significant reduction on tuition fee.</p>
+</div>
+</section>
+<section>
+    <div class="scholarsprogram">
+        <h5>AMERICAN UNIVERSITY IN BULGARIA</h5>
+        <a href="">GO TO WEBSITE <img alt="" src="images/arrow.png"></a>
+    </div>
+    <div class="prog">
+        <p>The programs available at AUBG where One Scholars applies are:</p>
+    </div>
+    <div class="program">
+        <div class="programrow">
+            <div class="progimg">
+                <div class="imgbg">
+                <img src="images/Group 22@2x.png" alt=""></div>
+                <p>Business Administration</p>
+            </div>
+            <div class="progimg">
+                <div class="imgbg">
+                <img src="images/Group 24@2x.png" alt=""></div>
+                <p>Computer Science</p>
+            </div>
+            <div class="progimg">
+                <div class="imgbg">
+                <img src="images/Group 26@2x.png" alt=""></div>
+                <p>BEconomics</p>
+            </div>
+        </div>
+        <div class="programrow">
+            <div class="progimg">
+                <div class="imgbg">
+                <img src="images/Group 28@2x.png" alt=""></div>
+                <p>Information Systems</p>
+            </div>
+            <div class="progimg">
+                <div class="imgbg">
+                <img src="images/Group 30@2x.png" alt=""></div>
+                <p>Journalism and Mass 
+                    Communication</p>
+            </div>
+            <div class="progimg">
+                <div class="imgbg">
+                <img src="images/Group 31@2x.png" alt=""></div>
+                <p>Mathematics</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<section>
+    <div class="scholarsprogram kosova">
+        <h5>RIT KOSOVO</h5>
+        <a href="">GO TO WEBSITE <img alt="" src="images/arrow.png"></a>
+    </div>
+    <div class="prog">
+        <p>The programs available at AUBG where One Scholars applies are:</p>
+    </div>
+    <div class="program">
+        <div class="programrow">
+            <div class="progimg">
+                <div class="imgbg bgks">
+                <img src="images/Group 38@2x.png" alt=""></div>
+                <p>Economics and Statistics</p>
+            </div>
+            <div class="progimg">
+                <div class="imgbg bgks">
+                <img src="images/Group 39@2x.png" alt=""></div>
+                <p>Graphic Design and Multimedia</p>
+            </div>
+            <div class="progimg">
+                <div class="imgbg bgks">
+                <img src="images/Group 40@2x.png" alt=""></div>
+                <p>Web and Mobile Computing (IT)</p>
+            </div>
+        </div>
+        <div class="programrow">
+            <div class="progimg">
+                <div class="imgbg bgks">
+                <img src="images/Group 41@2x.png" alt=""></div>
+                <p>Bachelor of Science in Computing and Information Technologies</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<section>
+    <div class="faqs">
+        <h1>FQAs</h1>
+        <div class="faqstext">
+            <button type="button" class="collapsible"><strong>Sed ut perspiciatis
+                 unde omnis iste natus error? </strong><img class="faqsarrow" src="images/arrow1.png" alt=""></button>
+            <div class="content">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                     sed quia consequuntur magni dolores eos qui ratione voluptatem sequi 
+                     nesciunt</p>
+            </div>
+        </div>
+        <div class="faqstext">
+            <button type="button" class="collapsible"><strong>Sed ut perspiciatis
+                 unde omnis iste natus error? </strong><img class="faqsarrow" src="images/arrow1.png" alt=""></button>
+            <div class="content">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                     sed quia consequuntur magni dolores eos qui ratione voluptatem sequi 
+                     nesciunt</p>
+            </div>
+        </div>
+        <div class="faqstext">
+            <button type="button" class="collapsible"><strong>Sed ut perspiciatis
+                 unde omnis iste natus error? </strong><img class="faqsarrow" src="images/arrow1.png"  alt=""></button>
+            <div class="content">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                     sed quia consequuntur magni dolores eos qui ratione voluptatem sequi 
+                     nesciunt</p>
+            </div>
+        </div>
+        <div class="faqstext">
+            <button type="button" class="collapsible"><strong>Sed ut perspiciatis
+                 unde omnis iste natus error? </strong><img class="faqsarrow" src="images/arrow1.png" alt=""></button>
+            <div class="content">
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore 
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, 
+                     sed quia consequuntur magni dolores eos qui ratione voluptatem sequi 
+                     nesciunt</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="footerbanner">
+        <img src="images/Group 117@2x.png" alt="">
+    </div>
+    <div class="mobilebanner">
+        <img class="onelog" src="images/Group 114@2x.png" alt="">
+        <p>For the students with scholarships, One Telecommunications will provide internships at the 
+            company during summer months.</p>
+        <img class="ban" src="images/Layer 2@2x.png" alt="">
+    </div>
+</section>
+<div class="footer">
+    <div class="teleone">
+        <ul>
+            <li>One Telecommunications</li>
+            <li><a class="btn" href="">Na kontaktoni</a></li>
+            <li><a href="">Dyqanet One</a></li>
+            <li><a href="">Njoftime për konsumatorët</a></li>
+            <li><a href="">Njoftime Prokurimi</a></li>
+            <li><a href="">Karriera në One</a></li>
+        </ul>
+    </div>
+    <div class="paketat teleone">
+        <ul>
+            <li>Plane & Paketa</li>
+            <li><a href="">Paketat One Unlimited</a></li>
+            <li><a href="">One Roaming</a></li>
+        </ul>
+    </div>
+    <div class="telefona teleone">
+        <ul>
+            <li>Telefona</li>
+            <li><a href="">Telefona</a></li>
+            <li><a href="">Garancia</a></li>
+        </ul>
+    </div>
+    <div class="info teleone">
+        <ul>
+            <li>Informacione të pëgjithshme</li>
+            <li><a href="">Kodi i Privatësisë</a></li>
+            <li><a href="">Terma dhe Kushte</a></li>
+            <li><a href="">Terma & Kushte My One</a></li>
+            <li><a href="">Mënyrat e pagesës</a></li>
+        </ul>
+    </div>
+    <div class="follow teleone">
+        <ul>
+            <li>Follow us</li>
+            <li><a href=""><img src="images/fbicon.png" alt="">  Facebook</a></li>
+            <li><a href=""><img src="images/insta_icon.png" alt="">  Instagram</a></li>
+            <li><a href=""><img src="images/linkedinicon.png" alt="">  LinkedIn</a></li>
+            <li><a href=""><img src="images/youtube icon.jpg" alt="">  YouTube</a></li>
+            <li><a href=""><img src="images/tik-tok-20.png" alt="">  TikTok</a></li>
+        </ul>
+    </div>
+</div>
+<div class="mobilefooter">
+    <div class="footermobile teleone">
+    <ul>
+        <li><a href="">Kompania</a></li>
+        <li><a href="">Biznes</a></li>
+        <li><a href="">Telefonia</a></li>
+        <li><a href="">Kujdesi ndaj klientit</a></li>
+        <li><a href="">Dyqanet One</a></li>
+        
+        <ul>
+            <li><a class="btn" href="">Na kontaktoni</a></li></ul>
+        <li>
+            <a href=""><img src="images/fbicon.png" alt=""></a>
+            <a href=""><img src="images/insta_icon.png" alt=""></a>
+            <a href=""><img src="images/linkedinicon.png" alt=""></a>
+            <a href=""><img src="images/youtube icon.jpg" alt=""></a>
+        </li></ul>
+    </div>
+    <div class="teleone">
+        <ul>
+            <li>One Telecommunications</li>
+            <li><a href="">Dyqanet One</a></li>
+            <li><a href="">Njoftime për konsumatorët</a></li>
+            <li><a href="">Njoftime Prokurimi</a></li>
+            <li><a href="">Karriera në One</a></li>
+        </ul>
+    </div>
+</div>
+<div  class="cookies-bar">
+    <p>Ky website perdor “cookies”. Duke lundruar ne website ju pranoni 
+        perdorimin e ketij informacioni nga ana jone.</p>
+        <a href="#" class="cookiesbtn" id="btnpranoj">Pranoj</a>
+        <a href="" class="cookiesbtn" id="btnmeshum">Me shume</a></div>
+<script src="index.js"></script>
+</body>
+</html>
